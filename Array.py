@@ -1,3 +1,7 @@
+#Copyright 2024 Mitchell E Wise 
+#SPDX-License-Identifier: Apache-20         
+
+
 x = ["walk","bike","ebike","bus","car"]
 while True:
     y = input("Enter a,b,c,d,e, to get a mode of transport.\n")
@@ -17,5 +21,4 @@ while True:
         print("Enter a,b,c,d,e only.")
         continue
     print(f"you picked {y}.")
-        
 
